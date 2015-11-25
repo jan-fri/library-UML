@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="4a9e9ead-1efe-46ab-b9ad-760de07c5e78" name="UseCase" linkedPackageId="9e894398-3501-4beb-b514-4c590c8e5fdd" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="9c6c5c0b-d663-4df9-a4e7-cda9054ef2af" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="7e0ef7f6-95b2-4ac9-9f62-c60855341549" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fb9a8e34-8490-45d7-8ded-c0934f470f95">
+          <propertyInstance Id="937909ed-dca5-4b6a-839e-7809f9f75197" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="c67cf4e1-ce9f-494e-ad66-418d5480badf" />
+          </propertyInstance>
+          <elementDefinition Id="c3cc7f77-11fd-47db-8aad-092134129ad7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="09bd826e-2777-4283-b2c7-11d69165b842">
+          <propertyInstance Id="c5192e47-29c2-4f09-8ff0-2781753ee10a" name="TemplateFilePath" value="ClassTemplate=M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="cfd4a63a-e68a-43b6-b5d2-d733fcd6f8b0" />
+          </propertyInstance>
+          <elementDefinition Id="407a125a-57ea-4374-857d-e7386f3691b8" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="85d1cee7-bd63-43f8-b955-02b727ae065e">
+          <propertyInstance Id="d2a40735-b7ca-4cdc-993a-6085097115fc" name="ProjectPath" value="ClassTemplate=..\BibliotekaLib\BibliotekaLib.csproj|EnumTemplate=..\BibliotekaLib\BibliotekaLib.csproj|InterfaceTemplate=..\BibliotekaLib\BibliotekaLib.csproj|StructTemplate=..\BibliotekaLib\BibliotekaLib.csproj">
+            <elementDefinition Id="8977ba60-a44b-44b4-a580-a0ed86a93d11" />
+          </propertyInstance>
+          <elementDefinition Id="2fe63b6c-7e32-42d5-ba1a-b5d57bf412e4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6def56cd-5140-4c63-b419-16633ca279fa">
+          <propertyInstance Id="2a81f9cf-087f-4b01-9166-d46809921053" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="5f952ad9-1123-48d4-99b3-5200a6572216" />
+          </propertyInstance>
+          <elementDefinition Id="f4506bb3-6ac0-4a69-80df-dea99b1703ed" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ca4766d5-8e1a-4bc1-9df3-649a42baa11f">
+          <propertyInstance Id="fb6a9f58-dcc5-45dc-bb30-082fb6ad2433" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="d2f633bc-e933-4f0c-8d7c-67f41b22b9b7" />
+          </propertyInstance>
+          <elementDefinition Id="c8a65973-7792-4d79-bee8-c87c2d3caec3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="675d9db1-09cc-482b-ba37-3052119f67d8">
+          <propertyInstance Id="50c1cbdf-5799-4672-ac2b-4ee6b091d325" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="7f7b0ba8-3188-40e6-9d85-3648d3e43434" />
+          </propertyInstance>
+          <elementDefinition Id="7e6b2d7a-89c7-4e2a-996d-b8b24b810090" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2b1bdeee-6ed0-473e-a59b-b4e0a92dfb95">
+          <propertyInstance Id="d273e36e-07e7-4409-b955-fefb17416d62" name="Parameters">
+            <elementDefinition Id="044bf4a5-1596-40cc-a43f-6209803e2f1e" />
+          </propertyInstance>
+          <elementDefinition Id="86cdbdcb-c849-415a-b227-40f9dbff8f1a" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f6ab87c4-ce94-465d-b4a9-dbab933aefec" name="Czytelnik" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="727c54fb-ddd4-4591-848b-aa81c22e054d" />
+        <targetEnds>
+          <association Id="63978217-9439-431c-b841-187954961a1b" isDerived="false" sourceEndRoleName="Czytelnik" targetEndRoleName="Czytanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6e90343d-4c39-41f3-8a5c-5444c86716fb" LastKnownName="Czytanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e5bafb6c-3a8a-4cf3-b1b4-26f5ca2c14c4" name="Czytelnik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3dd6d984-52f2-4934-a9e3-78490ce7c778" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7f6903d7-1688-4b2e-a9e0-3cffe77c2194" name="Czytanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="97099f0e-953b-4e93-8e47-668a8ca43c47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ba576b24-6e11-4b51-a8f2-89b1396e4101" />
+          </association>
+          <association Id="5d97a69a-6a2f-44e7-8b70-3a58c32bd00e" isDerived="false" sourceEndRoleName="Czytelnik" targetEndRoleName="Przeglądanie katalogu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="38b81ca2-7ec9-4a91-a8a7-101e9de53f35" LastKnownName="Przeglądanie katalogu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d8538179-deb1-49da-9702-162b9878b18b" name="Czytelnik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d8cf5af9-339e-4192-a0ff-d5d05009f9f7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="73b54348-fe97-47f7-b576-e743606a350c" name="Przeglądanie katalogu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="268e3451-d35b-43c6-ab8f-330dec6da0df" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9e593990-15e6-4f48-85fb-8550e0d63416" />
+          </association>
+          <association Id="ec18bdf9-fa39-45a7-b9d4-17574da97597" isDerived="false" sourceEndRoleName="Czytelnik" targetEndRoleName="Wypożyczanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="45a9ba3d-b0a0-4ca5-9df3-0a76690334a4" LastKnownName="Wypożyczanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f37d271-8197-40a4-ac2a-9334cb69469f" name="Czytelnik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="81536278-e5ad-4f7f-8015-1cf7e4b0d7d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="338db068-8f06-42f3-84f2-51626ed817f4" name="Wypożyczanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d976311f-6218-4f15-87ba-754bfe25c56a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b8cd9e7d-ba6c-494e-892d-8857e4b2dbfe" />
+          </association>
+          <association Id="035e8511-4c41-4045-b0b1-51cc609e5561" isDerived="false" sourceEndRoleName="Czytelnik" targetEndRoleName="Rezerwacja" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="29d7165f-5203-4a7f-bb16-209bc318b365" LastKnownName="Rezerwacja" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7d66cc63-bded-47b3-b2f1-22e040494d86" name="Czytelnik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="14211c30-da44-49c3-b0c3-064b5a0a9222" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ce6c6825-3a86-4f72-b4d8-4ae9600abb0a" name="Rezerwacja" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cd8b9086-cfec-4ce6-a8e7-e00336168478" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="26c29e73-819b-4025-b98a-5c5abc856888" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="15eb8072-ff58-4b22-8072-893ca3bea658" name="Biblioteka" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <ownedCommentsInternal>
+          <comment Id="69461635-99fb-48ce-9277-01b6a45ac6e8">
+            <elementDefinition Id="4464ceba-d966-4260-abbe-d43a84608875" />
+            <body>Prolongata możliwa przed terminem oddania wypożyczonego materiału</body>
+          </comment>
+        </ownedCommentsInternal>
+        <elementDefinition Id="cec0db71-8f5d-4411-a006-273236755466" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="6e90343d-4c39-41f3-8a5c-5444c86716fb" name="Czytanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e15be4dc-887e-4263-acfb-2bde5b2ecceb" />
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="38b81ca2-7ec9-4a91-a8a7-101e9de53f35" name="Przeglądanie katalogu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="684461f8-bf20-45e5-8b58-cf1bf1168530" />
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="45a9ba3d-b0a0-4ca5-9df3-0a76690334a4" name="Wypożyczanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6c8f3a99-3040-45c0-acf2-1f140adfe888" />
+        <additions>
+          <include Id="6043d721-fd89-4399-8f81-2ea79006f1c5">
+            <useCaseMoniker Id="9b97bfc0-5e24-47a1-aa8d-2297546a6fdb" LastKnownName="Zwrot" />
+            <elementDefinition Id="7169121c-a03e-444f-8445-a03f051c7c7b" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="29d7165f-5203-4a7f-bb16-209bc318b365" name="Rezerwacja" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ddf4d6aa-dd03-46c0-9523-f3df22dd2369" />
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="812794c7-4b78-4a89-9799-b25ec711de14" name="Prolongata" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f11c2c8f-4cf0-4f99-8370-75728c10550d" />
+        <extendedCases>
+          <extend Id="763e7896-f51b-4dfe-becb-127084331bb1">
+            <useCaseMoniker Id="45a9ba3d-b0a0-4ca5-9df3-0a76690334a4" LastKnownName="Wypożyczanie" />
+            <elementDefinition Id="47085bb8-d7f1-4ea1-bebd-747a59d7f0a6" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9b97bfc0-5e24-47a1-aa8d-2297546a6fdb" name="Zwrot" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8fbc5dce-baba-4770-a559-185631c598ab" />
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e49d509f-0b4e-4fcb-b808-50812862213a" name="Przyjęcie nowych materiałów do biblioteki" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5b511a68-ba22-4fc0-a73f-974f9089f2dc" />
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="e1ef707f-a74f-44ef-acf9-c73bf4a9727a" name="Hurtownia materiałów bibliotecznych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3eff7ad7-4e1c-4596-9d63-475f4fb60de7" />
+        <targetEnds>
+          <association Id="41bd299e-1e88-42e3-afc6-532b805f7652" isDerived="false" sourceEndRoleName="Hurtownia materiałów bibliotecznych" targetEndRoleName="Przyjęcie nowych materiałów do biblioteki" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e49d509f-0b4e-4fcb-b808-50812862213a" LastKnownName="Przyjęcie nowych materiałów do biblioteki" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="85040b30-ba22-4856-9122-bb59f112eebf" name="Hurtownia materiałów bibliotecznych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d5a44e16-c39e-4c55-9bad-e04197375b60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5319b981-e577-4a3f-b1c1-e1306aea47ce" name="Przyjęcie nowych materiałów do biblioteki" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1d07c552-0283-4e9c-b443-b03687a63db1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5c40f32f-0379-41e4-99c3-6256b8db62b1" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f65b2350-33ef-4394-be51-63470044c13e" name="Czas" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f53ada98-3d96-42fa-b452-d27e6155be97" />
+        <targetEnds>
+          <association Id="06dd9e51-bc15-4c5f-a8a5-fd2a4e5d5c30" isDerived="false" sourceEndRoleName="Czas" targetEndRoleName="Powiadomienie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a3c4b834-c31d-4d43-83b5-a5bccc6dce24" LastKnownName="Powiadomienie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5ac153e7-bb3d-4546-b355-d8c3749a10b2" name="Czas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6dd77ef4-3fa8-41a2-936f-01ab6078f7ee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96ef2f72-dfd9-42d9-a472-5cc758e3f190" name="Powiadomienie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ec1ab30e-9ae0-4093-a6aa-f13751d91cd5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="689c6cae-7e47-45ce-b68f-cc4582595ff1" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="a3c4b834-c31d-4d43-83b5-a5bccc6dce24" name="Powiadomienie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5e93d32f-1905-421e-ae06-977019137ded" />
+        <extendedCases>
+          <extend Id="396b2576-5417-43dd-abb8-cc1e7f259b5a">
+            <useCaseMoniker Id="cf93d67e-334d-455f-af47-604bfc5cd3bb" LastKnownName="przekroczenie terminu zwrotu materiału bibliotecznego" />
+            <elementDefinition Id="bef261ea-d7b3-42cf-8d22-26c05542bfec" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="cf93d67e-334d-455f-af47-604bfc5cd3bb" name="przekroczenie terminu zwrotu materiału bibliotecznego" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7143cc8e-4b54-4865-8a19-6d0693cf9fdf" />
+        <additions>
+          <include Id="b960b351-ef1e-4136-8f54-2b4cb251f658">
+            <useCaseMoniker Id="b0947bfa-e3b0-4e5c-9076-7f0321f2fbfc" LastKnownName="Naliczenie kary" />
+            <elementDefinition Id="d4f33fc3-6c60-4885-8011-98e5b43607b6" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b0947bfa-e3b0-4e5c-9076-7f0321f2fbfc" name="Naliczenie kary" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b795f9c3-dcf1-46a0-a61a-e34a02d64711" />
+        <additions>
+          <include Id="1911b105-5641-4def-9750-11ef784c3e8b">
+            <useCaseMoniker Id="fec8c402-ffe0-466e-89c9-9dc7f7f5b2be" LastKnownName="Opłacenie kary przez czytelnika" />
+            <elementDefinition Id="d987812b-8ca6-4522-8d9f-1dc746049bb2" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fec8c402-ffe0-466e-89c9-9dc7f7f5b2be" name="Opłacenie kary przez czytelnika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c4be9d2d-b560-4b48-9f74-7e6d91b5ef2b" />
+        <extendedCases>
+          <extend Id="9e9250a6-07f0-4a2c-99c5-cfdcb9990b74">
+            <useCaseMoniker Id="9b97bfc0-5e24-47a1-aa8d-2297546a6fdb" LastKnownName="Zwrot" />
+            <elementDefinition Id="a4490315-e4ce-4932-aae0-42596762e819" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="55189e55-ea75-4902-9a02-71d9613cacb4">
+            <useCaseMoniker Id="7e72937e-a31d-4ae7-82bb-a6ed9703d5b5" LastKnownName="Zagubienie lub zniszczenie wypożyczonego materiału" />
+            <elementDefinition Id="aeebf5e2-67eb-495b-bdc2-6d27a945d3c6" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7e72937e-a31d-4ae7-82bb-a6ed9703d5b5" name="Zagubienie lub zniszczenie wypożyczonego materiału" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b066a3c6-8d25-4b15-83a1-68c41dabdccb" />
+        <extendedCases>
+          <extend Id="54a4021e-32b6-4f20-a6a0-4de059f38d98">
+            <useCaseMoniker Id="9b97bfc0-5e24-47a1-aa8d-2297546a6fdb" LastKnownName="Zwrot" />
+            <elementDefinition Id="6b763492-463a-42ef-9ad7-f8876cce0cdc" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="15eb8072-ff58-4b22-8072-893ca3bea658" LastKnownName="Biblioteka" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="9e894398-3501-4beb-b514-4c590c8e5fdd" name="Biblioteka">
+    <elementDefinition Id="8cf3270a-1ac3-4d3a-b4da-c652c3f32651" />
+    <profileInstances>
+      <packageHasProfileInstances Id="52f4453a-3518-4369-b040-6e5493be4421">
+        <profileInstance Id="bb2bcc78-ce92-40fd-a11d-0781858f1200" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ed19c5be-2979-446b-8a7c-67e6086391d4">
+        <profileInstance Id="72192f02-21b7-432f-ac80-aa631b5c5c4f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="597cefd8-33e9-4694-899c-a2d5ef2f10f1">
+        <profileInstance Id="e4f6bb1b-7f71-4812-ab99-225d37120eb6" name="CSharpProfile">
+          <elementDefinition Id="4b4c2304-e20e-426e-907e-4c8b822bd5e8" />
+        </profileInstance>
+        <elementDefinition Id="c55be241-aea0-4d7f-b8aa-0759d3686c53" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="263a84a6-76e2-4740-9ff8-376c4bafbe09">
+        <profileInstance Id="98139d6b-484d-4e2f-b6c3-60d5dc8d4291" name="TextTemplateBindings">
+          <elementDefinition Id="8a9499ae-c0f5-434c-92df-9092f1a8d227" />
+        </profileInstance>
+        <elementDefinition Id="76d68a26-8c75-44c7-926e-9486adf6fd96" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

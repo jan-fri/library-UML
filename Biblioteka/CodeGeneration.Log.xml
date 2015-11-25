@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///M:/VISUAL STUDIO 15/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-11-11T14:59:46" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="ProjectPath = ..\BibliotekaLib\BibliotekaLib.csproj" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="TemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Diagnostic" Text="ResolvedTemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:48" Importance="Medium" Text="Biblioteka's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Biblioteka::Materiał_biblioteczny' -  (Class), 'Biblioteka::Książka' -  (Class), 'Biblioteka::Czasopismo' -  (Class), 'Biblioteka::Audiobook' -  (Class), 'Biblioteka::Autor' -  (Class), 'Biblioteka::Egzemplarz' -  (Class), 'Biblioteka::Egzemplarz_książki' -  (Class), 'Biblioteka::Czytelnik' -  (Class), 'Biblioteka::Konto' -  (Class), 'Biblioteka::Egzemplarz_casopisma' -  (Class), 'Biblioteka::Egzemplarz_audiobooka' -  (Class), 'Biblioteka::Wydawnictwo' -  (Class), 'Biblioteka::Wypożyczenie' -  (Class), 'Biblioteka::Rezerwacja' -  (Class), 'Biblioteka::Katalog' -  (Class), 'Biblioteka::Hurtownia materiałów bibliotecznych' -  (Class) " />
+  <Message Timestamp="2015-11-11T14:59:50" Importance="Medium" Text="Project Added: K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\BibliotekaLib.csproj" />
+  <Message Timestamp="2015-11-11T14:59:50" Importance="Medium" Text="'Biblioteka::Materiał_biblioteczny' -  (Class) : success (file created) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Materiał_biblioteczny.cs" />
+  <Message Timestamp="2015-11-11T14:59:50" Importance="Medium" Text="'Biblioteka::Książka' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Książka.cs" />
+  <Message Timestamp="2015-11-11T14:59:51" Importance="Medium" Text="'Biblioteka::Czasopismo' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Czasopismo.cs" />
+  <Message Timestamp="2015-11-11T14:59:51" Importance="Medium" Text="'Biblioteka::Audiobook' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Audiobook.cs" />
+  <Message Timestamp="2015-11-11T14:59:52" Importance="Medium" Text="'Biblioteka::Autor' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Autor.cs" />
+  <Message Timestamp="2015-11-11T14:59:52" Importance="Medium" Text="'Biblioteka::Egzemplarz' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Egzemplarz.cs" />
+  <Message Timestamp="2015-11-11T14:59:53" Importance="Medium" Text="'Biblioteka::Egzemplarz_książki' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Egzemplarz_książki.cs" />
+  <Message Timestamp="2015-11-11T14:59:53" Importance="Medium" Text="'Biblioteka::Czytelnik' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Czytelnik.cs" />
+  <Message Timestamp="2015-11-11T14:59:54" Importance="Medium" Text="'Biblioteka::Konto' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Konto.cs" />
+  <Message Timestamp="2015-11-11T14:59:54" Importance="Medium" Text="'Biblioteka::Egzemplarz_casopisma' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Egzemplarz_casopisma.cs" />
+  <Message Timestamp="2015-11-11T14:59:54" Importance="Medium" Text="'Biblioteka::Egzemplarz_audiobooka' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Egzemplarz_audiobooka.cs" />
+  <Message Timestamp="2015-11-11T14:59:55" Importance="Medium" Text="'Biblioteka::Wydawnictwo' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Wydawnictwo.cs" />
+  <Message Timestamp="2015-11-11T14:59:55" Importance="Medium" Text="'Biblioteka::Wypożyczenie' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Wypożyczenie.cs" />
+  <Message Timestamp="2015-11-11T14:59:56" Importance="Medium" Text="'Biblioteka::Rezerwacja' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Rezerwacja.cs" />
+  <Message Timestamp="2015-11-11T14:59:56" Importance="Medium" Text="'Biblioteka::Katalog' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Katalog.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="'Biblioteka::Hurtownia materiałów bibliotecznych' -  (Class) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Hurtownia materiałów bibliotecznych.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="Name = EnumTemplate" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="ProjectPath = ..\BibliotekaLib\BibliotekaLib.csproj" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="TemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="ResolvedTemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="Biblioteka's Text Template Binding: 'EnumTemplate' will apply EnumTemplate.t4 to: 'Biblioteka::Nośnik' -  (Enumeration), 'Biblioteka::Format_audio' -  (Enumeration), 'Biblioteka::Periodyk' -  (Enumeration), 'Biblioteka::Stan_konta' -  (Enumeration), 'Biblioteka::Format_książki' -  (Enumeration) " />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="'Biblioteka::Nośnik' -  (Enumeration) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Nośnik.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="'Biblioteka::Format_audio' -  (Enumeration) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Format_audio.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="'Biblioteka::Periodyk' -  (Enumeration) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Periodyk.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="'Biblioteka::Stan_konta' -  (Enumeration) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Stan_konta.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="'Biblioteka::Format_książki' -  (Enumeration) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Format_książki.cs" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="ProjectPath = ..\BibliotekaLib\BibliotekaLib.csproj" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="TemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Diagnostic" Text="ResolvedTemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:57" Importance="Medium" Text="Biblioteka's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'Biblioteka::Wypożyczanie' -  (Interface), 'Biblioteka::Rezerwacja' -  (Interface), 'Biblioteka::IPrzeglądanie' -  (Interface), 'Biblioteka::ICzytanie' -  (Interface) " />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Medium" Text="'Biblioteka::Wypożyczanie' -  (Interface) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Wypożyczanie.cs" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Medium" Text="'Biblioteka::Rezerwacja' -  (Interface) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\Rezerwacja.cs" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Medium" Text="'Biblioteka::IPrzeglądanie' -  (Interface) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\IPrzeglądanie.cs" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Medium" Text="'Biblioteka::ICzytanie' -  (Interface) : success (file replaced) - K:\Jasiek\Desctop\III_Rok\UML\vs\Biblioteka\BibliotekaLib\GeneratedCode\ICzytanie.cs" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="ProjectPath = ..\BibliotekaLib\BibliotekaLib.csproj" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="TemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="ResolvedTemplateFilePath = M:\VISUAL STUDIO 15\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Medium" Text="Biblioteka's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Biblioteka::Materiał_biblioteczny' -  (Class), 'Biblioteka::Książka' -  (Class), 'Biblioteka::Czasopismo' -  (Class), 'Biblioteka::Audiobook' -  (Class), 'Biblioteka::Autor' -  (Class), 'Biblioteka::Egzemplarz' -  (Class), 'Biblioteka::Egzemplarz_książki' -  (Class), 'Biblioteka::Czytelnik' -  (Class), 'Biblioteka::Konto' -  (Class), 'Biblioteka::Egzemplarz_casopisma' -  (Class), 'Biblioteka::Egzemplarz_audiobooka' -  (Class), 'Biblioteka::Wydawnictwo' -  (Class), 'Biblioteka::Wypożyczenie' -  (Class), 'Biblioteka::Rezerwacja' -  (Class), 'Biblioteka::Katalog' -  (Class), 'Biblioteka::Hurtownia materiałów bibliotecznych' -  (Class) " />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="'Biblioteka::Materiał_biblioteczny' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:58" Importance="Diagnostic" Text="'Biblioteka::Książka' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Czasopismo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Audiobook' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Autor' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Egzemplarz' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Egzemplarz_książki' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Czytelnik' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T14:59:59" Importance="Diagnostic" Text="'Biblioteka::Konto' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:00" Importance="Diagnostic" Text="'Biblioteka::Egzemplarz_casopisma' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:00" Importance="Diagnostic" Text="'Biblioteka::Egzemplarz_audiobooka' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:00" Importance="Diagnostic" Text="'Biblioteka::Wydawnictwo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:00" Importance="Diagnostic" Text="'Biblioteka::Wypożyczenie' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:00" Importance="Diagnostic" Text="'Biblioteka::Rezerwacja' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::Katalog' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::Hurtownia materiałów bibliotecznych' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="The selection included 38 elements which were not bound to a template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka' -  (ModelStoreModel): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'string' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'int' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'date' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'time' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Periodyk' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'readonly int' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Stan_konta' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'void' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'money' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'bool' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Egzemplarz_czasopisma' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Time' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="Diagnostic" Text="'Biblioteka::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-11T15:00:01" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
